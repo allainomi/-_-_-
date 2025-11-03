@@ -24,7 +24,3 @@ flutter:
   
   assets:
     - assets/html/jamia.html
-    # باقی assets بعد میں شامل کریں جب فائلیں ہوں
-
-flutter:
-  uses-material-design: true
