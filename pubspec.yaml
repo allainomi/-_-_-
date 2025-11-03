@@ -23,11 +23,8 @@ flutter:
   uses-material-design: true
   
   assets:
-    - assets/images/
-    - assets/audio/
-    - assets/html/
+    - assets/html/jamia.html
+    # باقی assets بعد میں شامل کریں جب فائلیں ہوں
 
-  fonts:
-    - family: Uthmanic
-      fonts:
-        - asset: assets/fonts/uthmanic.ttf
+flutter:
+  uses-material-design: true
