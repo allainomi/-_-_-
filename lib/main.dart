@@ -15,7 +15,6 @@ class MuslimKidsApp extends StatelessWidget {
       title: 'مسلم کڈز ایپ',
       theme: ThemeData(
         primarySwatch: Colors.green,
-        fontFamily: 'Uthmanic',
       ),
       home: const HomePage(),
       debugShowCheckedModeBanner: false,
