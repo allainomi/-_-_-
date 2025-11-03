@@ -1,15 +1,33 @@
-name: jamia_app
-description: ????? ????? ????? ????? ????????? ?? ???
+name: muslim_kids_app
+description: A Muslim Kids Learning App
+publish_to: 'none'
+
+version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  webview_flutter: ^4.0.7
+  webview_flutter: ^4.4.0
+  audioplayers: ^5.2.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+  
   assets:
-    - assets/jamia.html
+    - assets/images/
+    - assets/audio/
+    - assets/html/
+
+  fonts:
+    - family: Uthmanic
+      fonts:
+        - asset: assets/fonts/uthmanic.ttf
